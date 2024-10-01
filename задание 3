@@ -1,0 +1,10 @@
+a = int(input())
+b = int(input())
+if a > b:    
+    interval = range(b, a)
+else:
+    interval = range(a, b)
+    
+for num in interval:    
+    if num % 2 == 0 and num % 7 == 1:
+        print(num)  
