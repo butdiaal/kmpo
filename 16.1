@@ -1,0 +1,7 @@
+x = int(input())
+words = {}
+for i in range(x):
+    first, second = input().split()
+    words[first] = second
+    words[second] = first
+print(words[input()])
